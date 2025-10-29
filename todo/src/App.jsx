@@ -1,5 +1,5 @@
-import Header from './Header.jsx'
-import Taskm from './Taskm.jsx'
+import Header from './components/Header.jsx'
+import Taskm from './components/Taskm.jsx'
 
 function App() {
 

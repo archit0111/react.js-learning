@@ -1,4 +1,3 @@
-import { useState } from "react";
 import './Header.css'
 
 function Header(){
@@ -12,6 +11,7 @@ function Header(){
                 <a href="/">Feedback</a>
                 <a href="/">Login</a>
             </div>
+            <a href="/" id="hamberger">☰</a>
         </div>
     );
 }
