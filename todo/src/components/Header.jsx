@@ -1,10 +1,11 @@
 import './Header.css'
+import todo_logo from '../assets/todo_logo.png'
 
 function Header(){
     
     return (
         <div className="header">
-            <div id="logo"><img src="" alt="todo_logo" /></div>
+            <div ><img id="logo" src={todo_logo} alt="todo_logo" /></div>
             <div id="nav">
                 <a href="/">Home</a>
                 <a href="/">Contact</a>
