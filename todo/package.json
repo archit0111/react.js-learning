@@ -3,17 +3,15 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://archit0111.github.io/react.js-learning/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://archit0111.github.io/react.js-learning/",
-"scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-}
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
@@ -31,3 +29,4 @@
     "vite": "^7.1.7"
   }
 }
+
